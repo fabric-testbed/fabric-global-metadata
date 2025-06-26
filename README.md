@@ -38,8 +38,15 @@ These files are meant to be consumed as remote configuration sources via:
 To fetch and use:
 ```
 import requests
+
+# Facility ports
 fp_data = requests.get(
-    "https://raw.githubusercontent.com/fabric-testbed/fabric-global-metadata/main/facility_ports.json"
+    "https://raw.githubusercontent.com/fabric-testbed/fabric-global-metadata/main/metadata/facility_ports.json"
+).json()
+
+# OS images
+images = requests.get(
+    "https://raw.githubusercontent.com/fabric-testbed/fabric-global-metadata/main/metadata/os_images.json"
 ).json()
 ```
 ## License
