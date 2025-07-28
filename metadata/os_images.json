@@ -19,6 +19,10 @@
           "description": "Debian 12 Bookworm",
           "default_user": "debian"
       },
+      "default_debian_13": {
+          "description": "Debian 13",
+          "default_user": "debian"
+      },      
       "default_fedora_39": {
           "description": "Fedora 39",
           "default_user": "fedora"
@@ -51,6 +55,10 @@
           "description": "Rocky Linux 9",
           "default_user": "rocky"
       },
+      "default_rocky_10": {
+          "description": "Rocky Linux 10",
+          "default_user": "rocky"
+      },      
       "default_ubuntu_20": {
           "description": "Ubuntu 20.04 LTS Focal Fossa",
           "default_user": "ubuntu"
@@ -63,6 +71,10 @@
           "description": "Ubuntu 24.04 LTS Noble Numbat",
           "default_user": "ubuntu"
       },
+      "default_ubuntu_25": {
+          "description": "Ubuntu 25",
+          "default_user": "ubuntu"
+      },      
       "docker_rocky_8": {
           "description": "Rocky Linux 8 Docker image",
           "default_user": "rocky"
@@ -71,6 +83,10 @@
           "description": "Rocky Linux 9 Docker image",
           "default_user": "rocky"
       },
+      "docker_rocky_10": {
+          "description": "Rocky Linux 10 Docker image",
+          "default_user": "rocky"
+      },      
       "docker_ubuntu_20": {
           "description": "Ubuntu 20.04 LTS Docker image",
           "default_user": "ubuntu"
@@ -79,7 +95,19 @@
           "description": "Ubuntu 22.04 LTS Docker image",
           "default_user": "ubuntu"
       },
-      "attestable_bmv2_v1_ubuntu_20": {
+      "docker_ubuntu_24": {
+          "description": "Ubuntu 24 Docker image",
+          "default_user": "ubuntu"
+      },
+      "docker_ubuntu_25": {
+          "description": "Ubuntu 25 Docker image",
+          "default_user": "ubuntu"
+      },     
+      "dpu_ubuntu_24": {
+          "description": "Ubuntu 24 image with DOCA essentials for DPUs",
+          "default_user": "ubuntu"
+      },        
+      "attestable_bmv2_ubuntu_20": {
           "description": "Ubuntu 20.04 LTS Focal Fossa with BMv2 essentials",
           "default_user": "ubuntu"
       }
